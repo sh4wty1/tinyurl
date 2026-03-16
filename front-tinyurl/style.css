@@ -1,0 +1,103 @@
+body {
+
+font-family: Arial, sans-serif;
+background: #202020;
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+margin: 0;
+
+}
+
+.container {
+
+background: #3b3b3b;
+padding: 40px;
+border-radius: 10px;
+
+width: 500px;
+
+box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+}
+
+h1 {
+
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+.shortener {
+
+display: flex;
+gap: 10px;
+
+}
+
+input {
+
+flex: 1;
+padding: 10px;
+
+border-radius: 5px;
+border: none;
+
+}
+
+button {
+
+background: #ffffff;
+border: none;
+padding: 10px 20px;
+
+color: rgb(0, 0, 0);
+font-weight: bold;
+border-radius: 5px;
+
+cursor: pointer;
+
+}
+
+button:hover {
+  background: #202020;
+  color: white;
+}
+
+.url-item {
+
+margin-top: 15px;
+padding: 10px;
+
+background: #363636;
+border-radius: 5px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.url-info {
+
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+
+}
+
+.url-short {
+
+color: #ff5252;
+cursor: pointer;
+
+}
+
+.url-short:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
