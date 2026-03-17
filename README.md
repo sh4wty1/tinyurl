@@ -38,7 +38,7 @@ Frontend (optional):
 
 ## Project Structure
 
-
+```
 src
 ├── controller
 ├── service
@@ -46,7 +46,7 @@ src
 ├── entities
 ├── dto
 └── Application.java
-
+```
 
 ---
 
